@@ -1,12 +1,17 @@
 import './App.css'
 
-function App(){
+import NavBar from "./components/navBar.tsx";
 
-    return(
+function App() {
+
+
+    return (
         <div>
+            <NavBar/>
 
         </div>
     )
 }
 
 export default App
+
